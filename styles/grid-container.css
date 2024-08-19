@@ -1,0 +1,25 @@
+.grid-container-auto-repeat {
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* .grid-container-3-repeat {
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+} */
+
+.card-1 {
+    /* padding: 2em; */
+    padding: 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+}

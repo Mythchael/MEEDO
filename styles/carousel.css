@@ -1,6 +1,6 @@
 .c-item {
     /* default = height: 480px; */
-    height: 600px;
+    height: 85vh;
   }
   
   .c-img {
@@ -12,3 +12,22 @@
   .paddingtop80px {
     padding-top: 80px;
   }
+
+  .card-1-atrium {
+    /* padding: 2em; */
+    padding: 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    height: 500px; 
+    overflow: hidden; 
+    position: relative;
+}
+
+.img-atrium {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
