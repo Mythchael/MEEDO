@@ -12,6 +12,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0.6;
 }
 
 .text-atrium {
@@ -19,6 +20,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(197, 162, 101, 0.25);
+    padding: 50px;
+}
+
+.text-atrium h1 {
+    color: white;
+    font-weight: bolder;
 }
 
 .card-1-atrium {
@@ -26,7 +35,7 @@
     padding: 0;
     border: 1px solid grey;
     border-radius: 10px;
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     height: 500px; 
     overflow: hidden; 
@@ -35,12 +44,15 @@
 
 .card-2-atrium {
     /* padding: 2em; */
-    padding: 0;
-    border: 1px solid grey;
+    padding: 0 0 0 30px;
+    border: 1px solid rgb(197, 162, 101);
     border-radius: 10px;
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(255, 255, 255);
     height: 330px; 
     text-align: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .card-3-atrium {
@@ -51,4 +63,49 @@
     background-color: rgb(160, 160, 160);
     height: 330px; 
     text-align: center;
+}
+.alayonhall-text {
+    text-align: left;
+    font-size: large;
+    margin-left: 25px;
+    width: 550px;
+}
+
+.img-alayon {
+    background-color: rgb(197, 162, 101);
+    border-radius: 10px;
+    border: 1px solid rgb(197, 162, 101);
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img-alayon img {
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+}
+
+@media (max-width: 998px){
+    .card-2-atrium {
+        flex-direction: column;
+        height: auto;
+        /* padding-top: 10px; */
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 0;
+    }
+    .card-2-atrium .alayonhall-text {
+        text-align: center;
+    }
+
+    .img-alayon {
+        width: 100%;
+        height: 100%;
+    }
+
+    .alayonhall-text {
+        margin: auto;
+        width: 100%;
+    }
 }
