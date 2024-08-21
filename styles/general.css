@@ -20,6 +20,7 @@ body {
 .buttton-1:hover {
     background-color: rgb(31, 69, 110);
     border-radius: 4px;
+    border: 1px solid rgb(197, 162, 101);
 }
 
 .buttton-1:active {

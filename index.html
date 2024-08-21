@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/grid-container.css">
     <link rel="stylesheet" href="styles/atrium.css">
+    <link rel="stylesheet" href="styles/produkto.css">
+
 
 
     <!-- Bootstrap -->
@@ -27,7 +29,7 @@
     <!-- navbar start -->
     <nav class="navbar nav-underline navbar-expand-lg bg-body-tertiary fixed-top" style="padding: 0;">
         <div class="container-fluid" style="background-color: rgb(197, 162, 101);">
-          <a class="navbar-brand" href="#" style="color: white;">
+          <a title="Municipal Economic Enterprise Development Office" class="navbar-brand" href="#" style="color: white;">
             <img src="/logo/MEEDO-logo.png" alt="MEEDO" width="50" height="50">
             MEEDO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -44,10 +46,10 @@
                   <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: white;" href="#link">ATRIUM</a>
+                  <a class="nav-link" style="color: white;" href="#atrium">ATRIUM</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: white;" href="#link">Pasalubong Center</a>
+                  <a class="nav-link" style="color: white;" href="#produkto">Produkto Antiqueño</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" style="color: white;" href="#link">Tradetown</a>
@@ -87,7 +89,7 @@
                 <div class="carousel-caption top-0 mt-4">
                   <p class="mt-5 fs-3 text-uppercase paddingtop80px">Perfect place for your most memorable celebration</p>
                   <h1 class="display-1 fw-bolder text-capitalize">ATRIUM</h1>
-                  <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Book Now</button>
+                  <button class="buttton-1">Book Now</button>
                 </div>
               </div>
               <div class="carousel-item c-item">
@@ -95,7 +97,7 @@
                 <div class="carousel-caption top-0 mt-4">
                   <p class="text-uppercase fs-3 mt-5 paddingtop80px">The season has arrived</p>
                   <p class="display-1 fw-bolder text-capitalize">3 available tours</p>
-                  <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+                  <button class="buttton-1" data-bs-toggle="modal"
                     data-bs-target="#booking-modal">Book a tour</button>
                 </div>
               </div>
@@ -104,7 +106,7 @@
                 <div class="carousel-caption top-0 mt-4">
                   <p class="text-uppercase fs-3 mt-5 paddingtop80px">Destination activities</p>
                   <p class="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
-                  <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+                  <button class="buttton-1" data-bs-toggle="modal"
                     data-bs-target="#booking-modal">Book a tour</button>
                 </div>
               </div>
@@ -119,34 +121,62 @@
             </button>
         </div>
     <!-- carousel end -->
-    <div class="grid-container-auto-repeat-atrium" id="link">
+
+    <!-- ATRIUM content start -->
+    <div class="grid-container-auto-repeat-atrium" id="atrium">
         <div class="card-1-atrium">
-            <img class="img-atrium" src="/images/atrium/hero-image-atrium.jpg" alt="">             
+            <img title="ATRIUM" class="img-atrium" src="/images/atrium/hero-image-atrium.jpg" alt="">             
             <div class="text-atrium">
                 <h1>Antique Tourism Trade and Investment Forum</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>The Alayon and Kapinangan Hall: Named after the two known wives of Datu Sumakwel, the chief of Panay and the ruler of Hantik (now Antique), the walls of these halls lie the adventurous and fascinating story of Alayon, the enduring love and Kapinangan, the unfaithful wife, who turns out to be one and the same. 
+                  <br>
+                  <br>
+                  Like Alayon and Kapinangan, the two function halls are jointly similar to the other, like the love and affection of Datu Sumakwel to both but are distinctly different in terms of character and impact just like their roles in the life of the Datu.</p>
+                <button class="buttton-1">Take a look</button>
             </div>
         </div>
-     </div>
+    </div>
 
-     <div class="grid-container-auto-repeat-atrium">
-        <div class="card-2-atrium">
-            <div class="img-alayon">
-              <img src="images/atrium/alayon_image.png" alt="">
-            </div>
-            <div class="alayonhall-text">
-              <h1>ALAYON HALL</h1>
-              <p>bigger and more spacious. Like Alayon, holds greater and deeper secrets about her true self.</p>  
-              <button class="buttton-1">View Details</button>
-            </div>
+    <div class="grid-container-auto-repeat-atrium">
+      <div class="card-2-atrium">
+          <div class="img-alayon">
+            <img title="Alayon Hall" src="images/atrium/alayon_image.png" alt="Alayon Hall">
+          </div>
+          <div class="alayonhall-text">
+            <h1>ALAYON HALL</h1>
+            <p>Bigger and more spacious. Like Alayon, holds greater and deeper secrets about her true self.</p>  
+            <button class="buttton-1">View Details</button>
+          </div>
+      </div>
+      <div class="card-2-atrium">
+        <div class="img-alayon">
+          <img title="Kapinangan Hall" src="images/atrium/kapinangan_image.png" alt="Kapinangan Hall">
         </div>
-        <div class="card-3-atrium">
-            <h1>hello</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="alayonhall-text">
+          <h1>KAPINANGAN HALL</h1>
+          <p>More intimate space. Like Kapinangan contains her unlikely unpleasant past restricted. </p>  
+          <button class="buttton-1">View Details</button>
         </div>
-     </div>
+    </div>
+    </div>
+    <!-- ATRIUM content end -->
 
-    
+    <!-- PRODUKTO ANTIQUENO content start -->
+    <div class="grid-container-auto-repeat-produkto"  id="produkto">
+      <div class="card-2-produkto">    </div>
+      <div class="card-2-produkto">    </div>
+      <div class="card-2-produkto">    </div>
+      <div class="card-2-produkto">    </div>
+      <div class="card-2-produkto">    </div>
+      <div class="card-2-produkto">    </div>
+    </div>
+
+  <!-- PRODUKTO ANTIQUENO content end -->
+
+
+
+
+  
     </main>
 
 
