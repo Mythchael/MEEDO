@@ -6,6 +6,15 @@
     justify-content: center;
     padding-top: 10px;
 }
+.grid-container-auto-repeat-produkto-2 {
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
 
 .card-2-produkto {
     padding: 0 0 0 0;
@@ -29,6 +38,15 @@
     overflow: hidden; 
     object-fit: cover;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.img-produkto-2 {
+    height: 432px;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+    transition: width 0.5s ease, height 0.5s ease;
+    /* cursor: pointer; */
+
 }
 
 .img-produkto img {
